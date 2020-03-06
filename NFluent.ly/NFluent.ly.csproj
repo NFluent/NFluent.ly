@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Authors>Cyrille DUPUYDAUBY</Authors>
+    <Description>NFluent.ly is an add-on for NFluent that supports using pure extension syntax, like other assertion library.
+The library is in alpha stage.
+You can use sut.Verifies() instead of Check.That(sut)</Description>
+    <Copyright>© Cyrille Dupuydauby</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>This is the first release of this library.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NFluent" Version="2.7.0" />
+  </ItemGroup>
+
+</Project>
