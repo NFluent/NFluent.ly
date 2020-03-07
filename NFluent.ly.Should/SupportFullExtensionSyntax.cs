@@ -9,6 +9,7 @@ namespace NFluent.ly.Should
         {
             var sut = 2;
             sut.Verifies().IsEqualTo(2);
+            "Nfluent".Verifies().IsEqualIgnoringCase("NFluent");
         }
     }
 }

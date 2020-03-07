@@ -11,6 +11,7 @@ You can use sut.Verifies() instead of Check.That(sut)</Description>
     <Copyright>© Cyrille Dupuydauby</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>This is the first release of this library.</PackageReleaseNotes>
+    <UserSecretsId>f35e7777-9f71-4fed-b1b2-8e403ba8cfab</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
